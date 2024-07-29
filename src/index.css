@@ -5,3 +5,20 @@
 * {
    min-width: 0;
 }
+
+.rdp-root {
+   --rdp-accent-color: #fafafa;
+   --rdp-accent-background-color: #bef264;
+}
+
+.rdp-day {
+   width: auto !important;
+}
+
+.rdp-selected .rdp-day_button {
+   background-color: #bef264;
+   color: #1a2e05;
+   border: none;
+   font-weight: 600;
+   font-size: large;
+}
